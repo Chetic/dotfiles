@@ -9,4 +9,5 @@ let g:ctrlp_custom_ignore = {
 syntax on
 set nowrap
 set backspace=indent,eol,start
+set list lcs=tab:\ \ 
 
