@@ -10,4 +10,6 @@ syntax on
 set nowrap
 set backspace=indent,eol,start
 set list lcs=tab:\ \ 
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
+nnoremap <silent> <F8> :TlistOpen<CR>
 
